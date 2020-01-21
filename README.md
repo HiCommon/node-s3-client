@@ -1,5 +1,11 @@
 # High Level Amazon S3 Client
 
+## Common
+
+At time of writing, we're using this library to sync deployment artifacts to our S3 bucket. The library author appears to have abandoned the library, and in order to use Node 12, we need to update a downstream dependency `graceful-fs`.
+
+Ultimately, I'd like to remove this dependency.
+
 ## Installation
 
 `npm install s3 --save`
